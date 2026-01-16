@@ -53,7 +53,7 @@ const Footer = () => {
 
 	return (
 		<footer>
-			
+
 			<div className="separator"></div>
 
 			<div className='footer__container'>
@@ -77,7 +77,7 @@ const Footer = () => {
 						}
 					</div>
 				</div>
-	
+
 				<div className="footer__container--columns center">
 					<h4 className="center__title">Dirección</h4>
 					<div className="center__address">
@@ -86,13 +86,13 @@ const Footer = () => {
 						<span>Guárico</span>
 					</div>
 				</div>
-	
+
 				<div className="footer__container--columns right">
 					<h4 className="right__title">Síguenos</h4>
 					<div className="right__socials">
 						{
-							socials.map(({ label, url, icon }) => 
-								<Link 
+							socials.map(({ label, url, icon }) =>
+								<Link
 									key={label}
 									to={url}
 									target="_blank"
@@ -104,7 +104,7 @@ const Footer = () => {
 						}
 					</div>
 				</div>
-				
+
 			</div>
 
 			<div className='credits'>
@@ -114,13 +114,13 @@ const Footer = () => {
 				<span>por</span>
 
 				<Link
-					to = 'https://github.com/kevingandrades/'
+					to = 'https://github.com/kazza-dev/'
 					target = "_blank"
 					rel = "noopener noreferrer"
 				>
 					Keving Andrades
 				</Link>
-				
+
 				<span>{ new Date().getFullYear() }</span>
 
 			</div>
