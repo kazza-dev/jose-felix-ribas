@@ -21,7 +21,7 @@
 		"node",
 		"express"
 	],
-	"author": "Keving Andrades",
+	"author": "Kazza",
 	"license": "ISC",
 	"dependencies": {
 		"concurrently": "^8.2.0",
