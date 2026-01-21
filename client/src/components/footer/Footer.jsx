@@ -118,7 +118,7 @@ const Footer = () => {
 					target = "_blank"
 					rel = "noopener noreferrer"
 				>
-					Keving Andrades
+					Kazza
 				</Link>
 
 				<span>{ new Date().getFullYear() }</span>
